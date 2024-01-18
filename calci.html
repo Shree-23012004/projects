@@ -10,8 +10,9 @@
     <style>
         body {
             margin: 0;
-            background: url(./cal.jpg) no-repeat center center/cover;
+            background: url(./cal_background.jpg) no-repeat center center/cover;
             padding: 50px 0px;
+            font-family: 'Roboto', sans-serif;
         }
 
         button.clear {
@@ -20,12 +21,11 @@
         }
 
         table {
-            background: black;
-            padding: 7px 5px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
             border: 6px solid #00000000;
             text-align: center;
-            padding-bottom: 0px;
-            box-shadow: 0px 10px 20px rgba(0, 0, 0,1);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 1);
             border-radius: 10px;
             margin-top: 37px;
         }
@@ -33,6 +33,7 @@
         button.equal {
             width: 88%;
             background: #210b04;
+            transition: background 0.3s ease;
         }
 
         button.equal:hover {
@@ -40,37 +41,37 @@
         }
 
         input[type="text"] {
-            width: 450px;
-            height: 81px;
-            border: 1px solid #000;
-            padding: 10px 20px;
-            font-size: 29px;
+            width: 90%;
+            height: 70px;
+            border: 2px solid #10cfe7;
+            padding: 15px;
+            font-size: 26px;
             background: #000000;
             font-weight: bold;
-            margin-bottom: 25px;
-            font-family: cursive;
-            margin-top: 10px;
+            margin-bottom: 15px;
             color: #dedede;
-            border-bottom: 2px solid #10cfe7;
+            border-radius: 6px;
+            transition: border 0.3s ease, color 0.3s ease;
         }
 
         button {
-            padding: 10px 20px;
+            padding: 15px 20px;
             width: 100px;
             height: 60px;
-            margin-bottom: 20px;
-            font-size: 26px;
+            margin-bottom: 15px;
+            font-size: 18px;
             font-weight: bold;
-            font-family: cursive;
             background: #000803;
             border: none;
             color: #1fecd4;
             border-radius: 6px;
             cursor: pointer;
+            transition: background 0.3s ease, color 0.3s ease;
         }
 
         button:hover {
             background: #210b04;
+            color: #0ec2ea;
         }
     </style>
 </head>
