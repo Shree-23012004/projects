@@ -1,0 +1,45 @@
+.navb
+{
+    background-color: rgba(245, 134, 48, 0.35);
+    height: 100px;
+    width: 100%;
+}
+body{
+
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+.type
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+img
+{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 50%;
+}
+body,html
+{
+    height: 100%;
+}
+body
+{
+    background-size: 100%;
+    background-image: url("bacpl.jpg");
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: inherit;
+
+}

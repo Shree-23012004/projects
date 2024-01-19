@@ -1,0 +1,147 @@
+.p1
+{
+    font-family: Lumanosimo;
+    font-size:100px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 27%;
+    rotate: -30deg;
+    color: #f5efef;
+    text-shadow: 10px 10px #211c1c;
+    margin: 20px;
+}
+body,html{
+    height: 100%;
+}
+.first{
+    background-image:url("foods.jpg");
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+
+
+}
+.cont
+{
+    font-size: 35px;
+}
+
+.second
+{
+
+    height: 100%;
+    width: 100%;
+}
+img
+{
+    height: 300px;
+    width: 300px;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #1a1919;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #ada7a7;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 30%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+.gall
+{
+    height:100px ;
+    width: 100px;
+}
+
+
+div.scrollmenu {
+    background-color: #fcfbfb;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+#bir
+{
+    height: 200px;
+    width: 500px;
+    border: 1px solid black;
+
+    margin-left: 34%;
+    padding: 2px;
+}
+#nod
+{
+    height: 250px;
+    width: 500px;
+    border: 1px solid black;
+    box-shadow: #9edcde;
+    margin-left: 34%;
+    padding: 2px;
+
+}
+

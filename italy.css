@@ -1,0 +1,127 @@
+
+a{
+    text-decoration: none;
+    color:black
+}
+.idid
+{
+    background-color: #656766;
+    height: 90px;
+    margin: 1px;
+    font-size:14px;
+    position: fixed;
+    width: 100%;
+    top:0px
+}
+.idid td{
+ width: 20px;
+}
+
+body {
+
+    font-family: Helvetica, sans-serif;
+
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Styling the area of the slides */
+
+#slideshow {
+
+    overflow: hidden;
+    height: 230px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Style each of the sides
+with a fixed width and height */
+
+.slide {
+    border: 2px solid black;
+    padding:2px;
+    float: left;
+    height: 200px;
+    width: 500px;
+}
+
+/* Add animation to the slides */
+
+.slide-wrapper {
+
+    /* Calculate the total width on the
+  basis of number of slides */
+    width: calc(728px * 4);
+
+    /* Specify the animation with the
+  duration and speed */
+    animation: slide 10s ease infinite;
+}
+
+/* Set the background color
+of each of the slides */
+
+.slide:nth-child(1) {
+    background-image: url("italy/if1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.slide:nth-child(2) {
+   background-image: url("italy/if2.jpg");
+    background-size: 100%;
+}
+
+.slide:nth-child(3) {
+    background-image: url("italy/if3.jpg");
+    background-size: 100%;
+}
+
+.slide:nth-child(4) {
+    background-size: 100%;
+    background-image: url("italy/italyfo.jpg");
+}
+
+/* Define the animation
+for the slideshow */
+
+@keyframes slide {
+
+    /* Calculate the margin-left for
+  each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+    80% {
+        margin-left: calc(-728px * 3);
+    }
+}
+.tab,select
+{
+    height: 100%;
+    width: 100%;
+    background-color: #ded39e;
+    font-family: "Lugrasimo" ;
+}
+.tab td,th,select{
+    background-image: url("foods.jpg");
+    font-size: 24px;
+
+}
+.spc
+{
+    font-family: Algerian;
+    text-shadow: 2px 2px aquamarine;
+
+}
+
+select{
+    background-color: #00000000;
+}

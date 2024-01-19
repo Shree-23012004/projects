@@ -1,0 +1,31 @@
+.pa
+{
+    font-family: Lumanosimo;
+    text-align: justify;
+}
+img
+{
+    height: 400px;
+    width: 400px;
+}
+.navab
+{
+    background-color: rgba(175, 175, 241, 0.51);
+    height: 100px;
+    width: 100%;
+}
+#idli
+{
+    border-radius: 50%;
+    border: 3px solid #0f0f10;
+    padding: 2px;
+    margin-right: 10px;
+}
+#buti
+{
+    float: right;
+    height: 200px;
+    border: 3px solid black;
+    padding: 3px;
+    margin-left: 8px;
+}
